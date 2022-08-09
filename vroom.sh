@@ -101,7 +101,7 @@ __get_vroom_container_id() {
         VROOM_CONTAINER_ID=""
         echo "Could not find VROOM container ID."
     else
-        VROOM_CONTAINER_ID="${PATTERN_LINE:18}"
+        VROOM_CONTAINER_ID="${PATTERN_LINE:19}"
         echo "VROOM container ID found. It is ${VROOM_CONTAINER_ID}"
     fi
 
